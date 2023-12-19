@@ -1,0 +1,34 @@
+.topic-class{
+    font-size: 5rem;
+    font-family: 'Caprasimo', serif;
+}
+.custom-bg-color{
+    background: #142130; /*fallback for old browsers
+    /* background: -webkit-linear-gradient( */
+      /* 315deg,
+      #243b55,
+      #141e30
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    /* background: linear-gradient(
+      315deg,
+      #243b55,
+      #141e30
+    ); */ 
+
+    background: linear-gradient(135deg, #05074e, #6b4b01);
+
+      
+}
+
+body{
+    color: white;
+}
+.navbar{
+    color: black;
+    background: linear-gradient(150deg, #05074e, #32006b);
+    /* background-color: #05074e; */
+}
+.about-text{
+    font-size: 1.5rem;
+    font-family: 'Playfair Display', serif;
+}
