@@ -34,7 +34,7 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-          <a className="btn btn-ghost text-2xl">SK Sir Biology</a>
+          <a className="btn btn-ghost text-2xl">Bio Chase 1.0: </a>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
@@ -49,8 +49,7 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <div className="navbar-end">
-        </div>
+        <div className="navbar-end"></div>
       </div>
     </div>
   );

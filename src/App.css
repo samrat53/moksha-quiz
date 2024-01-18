@@ -1,5 +1,5 @@
 .topic-class{
-    font-size: 5rem;
+    font-size: 2.7rem;
     font-family: 'Caprasimo', serif;
 }
 .custom-bg-color{
@@ -15,17 +15,16 @@
       #141e30
     ); */ 
 
-    background: linear-gradient(135deg, #05074e, #6b4b01);
-
-      
+    background: linear-gradient(135deg, #FFC436, #FF9800); 
 }
 
-body{
+/* body{
     color: white;
-}
+} */
 .navbar{
     color: black;
-    background: linear-gradient(150deg, #05074e, #32006b);
+    background: linear-gradient(150deg, #FF9800, #FF9800);
+    box-shadow: 0px 5px 10px  #FF9800;
     /* background-color: #05074e; */
 }
 .about-text{
