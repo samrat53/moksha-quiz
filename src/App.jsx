@@ -1,10 +1,8 @@
 import "./App.css";
-import Carousel from "./components/Carousel";
-import About from "./components/About";
-import Faq from "./components/Faq";
-import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
 import Layout from "./components/Layout";
+import Landing from "./pages/Landing";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Rules from "./pages/Rules";
 
 const images = [
   "../public/images/img1.jpeg",
@@ -21,16 +19,12 @@ function App() {
     <>
       <div className="custom-bg-color" data-theme="forest">
         <Layout>
-
-        <div className="carousel-box m-9 " >
-          <Carousel images={images} />
-        </div>
-        <div className="about-section">
-          <About />
-        </div>
-        <div className="faq-section">
-          <Faq />
-        </div>
+        <Router>
+          <Routes>
+            <Route path="/home" element={<Landing/>}/>
+            <Route path="/rules" element={<Rules/>}/>
+          </Routes>
+        </Router>
 
         </Layout>
         </div>
