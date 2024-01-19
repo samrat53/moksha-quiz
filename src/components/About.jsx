@@ -7,7 +7,7 @@ const About = () => {
         <div className="flex flex-wrap items-center ">
           <div className="w-full mb-10 lg:w-1/2 lg:mb-0 px-4 ">
             <div className="lg:max-w-md">
-              <span className="topic-class text-teal-500 uppercase">
+              <span className="topic-class text-teal-500 underline-dotted uppercase">
                 Quiz Prize Pool:
               </span>
               {/* <p className="mb-10 text-gray-600 dark:text-gray-400"> */}
@@ -48,7 +48,7 @@ const About = () => {
                 {/* <img src="../../public/icons/icon1.png"/> */}
               </span>
               <div>
-                <h2 className="mb-4 text-[2rem] font-bold leading-tight  text-white">
+                <h2 className="mb-4 text-[2rem] font-bold leading-tight underline text-white">
                   Winning Team
                 </h2>
                 <ol className="mb-10">
@@ -88,7 +88,7 @@ const About = () => {
                 </svg>
               </span>
               <div>
-                <h2 className="mb-4 text-[2rem] font-bold leading-tight text-white">
+                <h2 className="mb-4 text-[2rem] font-bold leading-tight underline text-white">
                   Runner’s Up Team
                 </h2>
                 <ol className="mb-10">
@@ -121,7 +121,7 @@ const About = () => {
                 </svg>
               </span>
               <div>
-                <h2 className="mb-4 text-[2rem] font-bold leading-tight text-white">
+                <h2 className="mb-4 text-[2rem] font-bold leading-tight underline text-white">
                   Second Runner’s Up Team
                 </h2>
                 <ol className="mb-10">

@@ -50,7 +50,7 @@ const Faq = () => {
         <div className="collapse collapse-plus bg-base-200">
           <input type="radio" name="my-accordion-3" checked="checked" />
           <div className="collapse-title text-xl font-medium">
-          {`Q. ${question}`}
+            {`Q. ${question}`}
           </div>
           <div className="collapse-content">
             <p>{`Ans. ${answer}`}</p>
@@ -62,8 +62,9 @@ const Faq = () => {
 
   return (
     <>
-      <h1 className="pl-[5rem] pb-[3.5rem] underline flex flex-col items-center topic-class text-white">
-        Frequently Asked Questions:
+      <h1 className="px-[5rem] pt-[3.5rem] flex flex-col items-center topic-class text-center drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] text-white">
+        Rules for the Inter School Biology Quizzing Event <br />
+        <span className="underline">“Bio-Chase 1.0”</span>
       </h1>
       {faqData.map((item, index) => (
         <FaqItem key={index} question={item.question} answer={item.answer} />
