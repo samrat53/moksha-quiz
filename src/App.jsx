@@ -18,15 +18,15 @@ function App() {
   return (
     <>
       <div className="custom-bg-color" data-theme="forest">
-        <Layout>
         <Router>
+        <Layout>
           <Routes>
             <Route path="/home" element={<Landing/>}/>
             <Route path="/rules" element={<Rules/>}/>
           </Routes>
+        </Layout>
         </Router>
 
-        </Layout>
         </div>
     </>
   );

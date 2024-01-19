@@ -39,15 +39,15 @@ const Faq = () => {
   const FaqItem = ({ question, answer }) => {
     return (
       <div className="question-box px-[3rem] py-5 mx-[7rem] text-xl">
-        <div className="chat chat-start ">
+        {/* <div className="chat chat-start ">
           <div className="chat-bubble chat-bubble-primary">
           {`Q. ${question}`}
           </div>
         </div>
         <div className="chat chat-end">
           <div className="chat-bubble chat-bubble-accent mt-6">{`Ans. ${answer}`}</div>
-        </div>
-        {/* <div className="collapse collapse-plus bg-base-200">
+        </div> */}
+        <div className="collapse collapse-plus bg-base-200">
           <input type="radio" name="my-accordion-3" checked="checked" />
           <div className="collapse-title text-xl font-medium">
           {`Q. ${question}`}
@@ -55,7 +55,7 @@ const Faq = () => {
           <div className="collapse-content">
             <p>{`Ans. ${answer}`}</p>
           </div>
-        </div> */}
+        </div>
       </div>
     );
   };

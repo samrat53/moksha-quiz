@@ -1,9 +1,11 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 const Navbar = () => {
+  const navigate = useNavigate();
   return (
     <div>
-      <div className="navbar" data-theme="dracula">
+      <div className="navbar">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -26,27 +28,73 @@ const Navbar = () => {
               tabIndex={0}
               className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
             >
-              <li>
-                <a>Item 1</a>
-              </li>
-              <li>
-                <a>Item 2</a>
-              </li>
+              <button
+                className="btn text-white btn-warning my-1"
+                onClick={() => {
+                  navigate("/rules");
+                }}
+              >
+                Rules & regulations
+              </button>
+              <button
+                className="btn text-white btn-warning my-1"
+                onClick={() => {
+                  navigate("/home");
+                }}
+              >
+                Home
+              </button>
+              <button
+                className="btn text-white btn-warning my-1"
+                onClick={() => {
+                  navigate("/route2");
+                }}
+              >
+                Route 2
+              </button>
             </ul>
           </div>
-          <a className="btn btn-ghost text-2xl">Bio Chase 1.0: </a>
+          <button
+            onClick={() => {
+              navigate("/moksha-website-link"); 
+              // moksha website link here
+            }}
+          > 
+          {/* Moksha Image */}
+            <img
+              className="btn-ghost"
+              src={"../../public/images/moksha-text.png"}
+              height="200rem"
+              width="200rem"
+            />
+          </button>
         </div>
-        <div className="navbar-center hidden lg:flex">
+        <div className="navbar-center hidden lg:flex ">
           <ul className="menu menu-horizontal px-1">
-            <li>
-              <a>Item 1</a>
-            </li>
-            <li>
-              <a>Item 2</a>
-            </li>
-            <li>
-              <a>Item 3</a>
-            </li>
+            <button
+              className="btn text-white btn-ghost "
+              onClick={() => {
+                navigate("/rules");
+              }}
+            >
+              Rules & Regulations
+            </button>
+            <button
+              className="btn  btn-ghost text-white"
+              onClick={() => {
+                navigate("/home");
+              }}
+            >
+              Home
+            </button>
+            <button
+              className="btn  btn-ghost text-white"
+              onClick={() => {
+                navigate("/route2");
+              }}
+            >
+              Route 2
+            </button>
           </ul>
         </div>
         <div className="navbar-end"></div>
