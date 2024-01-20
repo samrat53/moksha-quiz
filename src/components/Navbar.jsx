@@ -72,7 +72,7 @@ const Navbar = () => {
           <div className="navbar-center hidden lg:flex">
             <ul className="menu menu-horizontal px-1 mx-6 ">
               <button
-                className="btn text-white btn-ghost text-sm "
+                className="btn text-white btn-ghost text-sm btn-sm hover:text-black hover:bg-white"
                 onClick={() => {
                   navigate("/rules");
                 }}
@@ -80,7 +80,7 @@ const Navbar = () => {
                 Rules & Regulations
               </button>
               <button
-                className="btn btn-ghost text-white text-sm "
+                className="btn btn-ghost text-white text-sm mr-5 btn-sm hover:text-black hover:bg-white"
                 onClick={() => {
                   navigate("/home");
                 }}
@@ -88,7 +88,7 @@ const Navbar = () => {
                 Home
               </button>
               <button
-                className="btn btn-ghost text-white text-sm"
+                className="btn text-white text-sm btn-outline btn-sm hover:text-black hover:bg-white"
                 onClick={() => {
                   navigate("/register");
                 }}
