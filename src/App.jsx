@@ -3,6 +3,7 @@ import Layout from "./components/Layout";
 import Landing from "./pages/Landing";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Rules from "./pages/Rules";
+import Registration from "./pages/Registration";
 
 const images = [
   "../public/images/img1.jpeg",
@@ -21,6 +22,7 @@ function App() {
         <Router>
         <Layout>
           <Routes>
+            <Route path="/" element={<Registration/>}/>
             <Route path="/home" element={<Landing/>}/>
             <Route path="/rules" element={<Rules/>}/>
           </Routes>
