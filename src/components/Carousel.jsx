@@ -3,6 +3,22 @@ import "slick-carousel/slick/slick-theme.css";
 import React from "react";
 import Slider from "react-slick";
 
+const SampleNextArrow=()=> {
+  return (
+    <div
+      style={{display: "none"}}
+    />
+  );
+}
+
+const SamplePrevArrow=()=> {
+  return (
+    <div
+      style={{ display: "none"}}
+    />
+  );
+}
+
 const Carousel = ({ images }) => {
 
   var settings = {
@@ -13,6 +29,8 @@ const Carousel = ({ images }) => {
     autoplay: true,
     autoplaySpeed: 1500,
     pauseOnHover: true,
+    nextArrow: <SampleNextArrow />,
+    prevArrow: <SamplePrevArrow />,
     appendDots: dots => (
       <div
         style={{

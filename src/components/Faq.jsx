@@ -58,12 +58,12 @@ const Faq = () => {
   const FaqItem = ({ question, answer }) => {
     return (
       <div className="question-box py-5 mx-[3em] text-xl ">
-        <div className="collapse bg-base-300 collapse-arrow ">
+        <div className="collapse bg-white collapse-arrow ">
           <input type="radio" name="my-accordion-3" checked="checked" />
-          <div className="collapse-title font-medium">
+          <div className="collapse-title font-medium text-xl">
             {`${question}`}
           </div>
-          <div className="collapse-content faq-border pt-2" >
+          <div className="collapse-content faq-border pt-2 text-[1rem]" >
             {answer.map((item) => (
               <p>{item}</p>
             ))}
@@ -75,9 +75,9 @@ const Faq = () => {
 
   return (
     <>
-      <h1 className="px-[5rem] py-[3.5rem] flex flex-col items-center topic-class text-center drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] text-teal-300">
+      <h1 className="px-[5rem] py-[3.5rem] flex flex-col items-center topic-class text-center text-[3rem]">
         Rules for the Inter School Biology Quizzing Event <br />
-        <span className="underline">“Bio-Chase 1.0”</span>
+        <span>“Bio-Chase 1.0”</span>
       </h1>
       {faqData.map((item, index) => (
         <FaqItem key={index} question={item.question} answer={item.answer} />

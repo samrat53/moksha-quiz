@@ -6,21 +6,18 @@ const Footer = () => {
         <aside>
         <button
             onClick={() => {
-              navigate("/moksha-website-link"); 
+              window.location.href = "https://www.nita.ac.in/";
               // moksha website link here
             }}
-            className="rounded-full bg-yellow-400 "
-          > 
+          >
+            {/* Moksha Image */}
             <img
-            //moksha image
-              className="btn-ghost "
-              src={"../../public/images/moksha-logo1.png"}
-              height="200rem"
-              width="200rem"
+              className="btn-ghost drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]"
+              src={"/images/nita-logo.png"}
+              width="150rem"
             />
           </button>
           <p className="font-bold text-white">
-            MOKSHA-VIII  <br />
             National Institute of Technology Agartala
           </p>
           <p>Copyright © 2024 - All right reserved</p>

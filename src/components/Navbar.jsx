@@ -5,7 +5,7 @@ const Navbar = () => {
   const navigate = useNavigate();
   return (
     <div>
-      <div className="navbar lg:h-[6rem]">
+      <div className="navbar">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -56,72 +56,23 @@ const Navbar = () => {
           </div>
           <button
             onClick={() => {
-              window.location.href = "/moksha-website-link";
+              window.location.href = "https://www.nita.ac.in/";
               // moksha website link here
             }}
           >
             {/* Moksha Image */}
             <img
               className="btn-ghost drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]"
-              src={"../../public/images/moksha-text.png"}
-              height="100rem"
-              width="225rem"
+              src={"/images/nita-logo.png"}
+              width="100rem"
             />
           </button>
         </div>
-        {/* <div className="navbar-center hidden lg:flex ">
-          <ul className="menu menu-horizontal px-1">
-            <button
-              className="btn underline text-white btn-ghost text-lg drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]"
-              onClick={() => {
-                navigate("/rules");
-              }}
-            >
-              Rules & Regulations
-            </button>
-            <button
-              className="btn underline btn-ghost text-white text-lg drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]"
-              onClick={() => {
-                navigate("/home");
-              }}
-            >
-              Home
-            </button>
-            <button
-              className="btn underline btn-ghost text-white text-lg drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]"
-              onClick={() => {
-                navigate("/route2");
-              }}
-            >
-              Route 2
-            </button>
-          </ul>
-        </div> */}
-        <div className="navbar-end">
-          {/* <button
-            className="flex flex-col items-center"
-            onClick={() => {
-              window.location.href =
-                "https://drsksirsbiologyclasses.business.site/";
-            }}
-          >
-            <div className="mb-[-10px] flex-shrink-0">
-              <img
-                className="btn-ghost p-1 max-w-full"
-                src={"/images/sksir-logo-1.png"}
-                height="100rem"
-                width="95rem"
-                alt="Sksir Logo"
-              />
-            </div>
-            <h3 className="text-white text-sm font-bold drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]">
-              DR S.K. SIR'S BIOLOGY
-            </h3>
-          </button> */}
-          <div className="navbar-center hidden lg:flex ">
-            <ul className="menu menu-horizontal px-1 mx-6">
+        <div className="navbar-end  ">
+          <div className="navbar-center hidden lg:flex">
+            <ul className="menu menu-horizontal px-1 mx-6 ">
               <button
-                className="btn text-white btn-ghost text-lg"
+                className="btn text-white btn-ghost text-sm "
                 onClick={() => {
                   navigate("/rules");
                 }}
@@ -129,7 +80,7 @@ const Navbar = () => {
                 Rules & Regulations
               </button>
               <button
-                className="btn btn-ghost text-white text-lg"
+                className="btn btn-ghost text-white text-sm "
                 onClick={() => {
                   navigate("/home");
                 }}
@@ -137,7 +88,7 @@ const Navbar = () => {
                 Home
               </button>
               <button
-                className="btn btn-ghost text-white text-lg"
+                className="btn btn-ghost text-white text-sm"
                 onClick={() => {
                   navigate("/register");
                 }}
