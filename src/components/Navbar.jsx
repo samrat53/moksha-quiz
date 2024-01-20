@@ -5,7 +5,7 @@ const Navbar = () => {
   const navigate = useNavigate();
   return (
     <div>
-      <div className="navbar lg:h-[6rem] ">
+      <div className="navbar lg:h-[6rem]">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -47,10 +47,10 @@ const Navbar = () => {
               <button
                 className="btn text-white btn-warning my-1 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]"
                 onClick={() => {
-                  navigate("/route2");
+                  navigate("/register");
                 }}
               >
-                Route 2
+                Register / Login
               </button>
             </ul>
           </div>
@@ -69,7 +69,7 @@ const Navbar = () => {
             />
           </button>
         </div>
-        <div className="navbar-center hidden lg:flex ">
+        {/* <div className="navbar-center hidden lg:flex ">
           <ul className="menu menu-horizontal px-1">
             <button
               className="btn underline text-white btn-ghost text-lg drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]"
@@ -96,17 +96,15 @@ const Navbar = () => {
               Route 2
             </button>
           </ul>
-        </div>
+        </div> */}
         <div className="navbar-end">
-          <button
+          {/* <button
             className="flex flex-col items-center"
             onClick={() => {
               window.location.href =
                 "https://drsksirsbiologyclasses.business.site/";
-              // sksir website link
             }}
           >
-            {/* Sksir Image */}
             <div className="mb-[-10px] flex-shrink-0">
               <img
                 className="btn-ghost p-1 max-w-full"
@@ -119,7 +117,35 @@ const Navbar = () => {
             <h3 className="text-white text-sm font-bold drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]">
               DR S.K. SIR'S BIOLOGY
             </h3>
-          </button>
+          </button> */}
+          <div className="navbar-center hidden lg:flex ">
+            <ul className="menu menu-horizontal px-1 mx-6">
+              <button
+                className="btn text-white btn-ghost text-lg"
+                onClick={() => {
+                  navigate("/rules");
+                }}
+              >
+                Rules & Regulations
+              </button>
+              <button
+                className="btn btn-ghost text-white text-lg"
+                onClick={() => {
+                  navigate("/home");
+                }}
+              >
+                Home
+              </button>
+              <button
+                className="btn btn-ghost text-white text-lg"
+                onClick={() => {
+                  navigate("/register");
+                }}
+              >
+                Register / Login
+              </button>
+            </ul>
+          </div>
         </div>
       </div>
     </div>

@@ -58,12 +58,12 @@ const Faq = () => {
   const FaqItem = ({ question, answer }) => {
     return (
       <div className="question-box py-5 mx-[3em] text-xl ">
-        <div className="collapse bg-base-300 collapse-open ">
+        <div className="collapse bg-base-300 collapse-arrow ">
           <input type="radio" name="my-accordion-3" checked="checked" />
-          <div className="collapse-title text-xl font-medium text-center underline">
+          <div className="collapse-title font-medium">
             {`${question}`}
           </div>
-          <div className="collapse-content">
+          <div className="collapse-content faq-border pt-2" >
             {answer.map((item) => (
               <p>{item}</p>
             ))}

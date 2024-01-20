@@ -7,7 +7,7 @@ const About = () => {
         <div className="flex flex-wrap items-center ">
           <div className="w-full mb-10 lg:w-1/2 lg:mb-0 px-4 ">
             <div className="lg:max-w-md">
-              <span className="topic-class text-teal-500 underline-dotted uppercase">
+              <span className="topic-class text-teal-400 -dotted uppercase">
                 Quiz Prize Pool:
               </span>
               {/* <p className="mb-10 text-gray-600 dark:text-gray-400"> */}
@@ -48,26 +48,26 @@ const About = () => {
                 {/* <img src="../../public/icons/icon1.png"/> */}
               </span>
               <div>
-                <h2 className="mb-4 text-[2rem] font-bold leading-tight underline text-white">
+                <h2 className="mb-4 text-[2rem] font-bold leading-tight  text-teal-400">
                   Winning Team
                 </h2>
                 <ol className="mb-10">
-                  <li className="my-1 text-[#0F0F0F]">
+                  <li className="my-1 prize-text-details">
                     &#8226; Compound Microscope for each participant of the
                     team.
                   </li>
-                  <li className="my-1 text-[#0F0F0F]">
+                  <li className="my-1 prize-text-details">
                     &#8226; Winners Trophy for the School.
                   </li>
-                  <li className="my-1 text-[#0F0F0F]">
+                  <li className="my-1 prize-text-details">
                     &#8226; Prestigious Badge of Best School in Biology
                     Education.
                   </li>
-                  <li className="my-1 text-[#0F0F0F]">
+                  <li className="my-1 prize-text-details">
                     &#8226; 90% scholarship in Biology training for IBB and
                     NSEB.
                   </li>
-                  <li className="my-1 text-[#0F0F0F]">
+                  <li className="my-1 prize-text-details">
                     &#8226; Cash Prize of Rs. 6000
                   </li>
                 </ol>
@@ -88,20 +88,20 @@ const About = () => {
                 </svg>
               </span>
               <div>
-                <h2 className="mb-4 text-[2rem] font-bold leading-tight underline text-white">
+                <h2 className="mb-4 text-[2rem] font-bold leading-tight  text-teal-400">
                   Runner’s Up Team
                 </h2>
                 <ol className="mb-10">
-                  <li className="my-1 text-[#0F0F0F]">
+                  <li className="my-1 prize-text-details">
                     &#8226; Cash Prize of Rs. 3000
                   </li>
-                  <li className="my-1 text-[#0F0F0F]">
+                  <li className="my-1 prize-text-details">
                     &#8226; Runner's Up Trophy
                   </li>
-                  <li className="my-1 text-[#0F0F0F]">
+                  <li className="my-1 prize-text-details">
                     &#8226; Badge of 2nd Best School Award
                   </li>
-                  <li className="my-1 text-[#0F0F0F]">
+                  <li className="my-1 prize-text-details">
                     &#8226; 50% scholarship in Biology training for IBB and NSEB
                   </li>
                 </ol>
@@ -121,20 +121,20 @@ const About = () => {
                 </svg>
               </span>
               <div>
-                <h2 className="mb-4 text-[2rem] font-bold leading-tight underline text-white">
+                <h2 className="mb-4 text-[2rem] font-bold leading-tight  text-teal-400">
                   Second Runner’s Up Team
                 </h2>
                 <ol className="mb-10">
-                  <li className="my-1 text-[#0F0F0F]">
+                  <li className="my-1 prize-text-details">
                     &#8226; Cash Prize of Rs. 2000
                   </li>
-                  <li className="my-1 text-[#0F0F0F]">
+                  <li className="my-1 prize-text-details">
                     &#8226; 2nd Runner's Up Trophy
                   </li>
-                  <li className="my-1 text-[#0F0F0F]">
+                  <li className="my-1 prize-text-details">
                     &#8226; Badge of 3rd Best School Award
                   </li>
-                  <li className="my-1 text-[#0F0F0F]">
+                  <li className="my-1 prize-text-details">
                     &#8226; 25% scholarship in Biology training for IBB and NSEB
                   </li>
                 </ol>
