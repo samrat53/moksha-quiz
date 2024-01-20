@@ -16,8 +16,8 @@ const About = () => {
         <VerticalTimeline>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-            contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
+            contentStyle={{ background: "rgba(1, 2, 1, 0.37)", color: "#fff" }}
+            contentArrowStyle={{ borderRight: "7px solid  rgba(1, 2, 1, 0.37)" }}
             date={<Data text="Winning Team" />}
             iconStyle={{ background: "rgb(255, 255, 255)", color: "#fff" }}
             icon={<Icon1 />}
@@ -48,8 +48,8 @@ const About = () => {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-            contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
+            contentStyle={{ background: "rgba(1, 2, 1, 0.37)", color: "#fff" }}
+            contentArrowStyle={{ borderRight: "7px solid  rgba(1, 2, 1, 0.37)" }}
             date={<Data text="Runner's Up Team" />}
             iconStyle={{ background: "rgb(255, 255, 255)", color: "#fff" }}
             icon={<Icon2 />}
@@ -77,8 +77,8 @@ const About = () => {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-            contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
+            contentStyle={{ background: "rgba(1, 2, 1, 0.37)", color: "#fff" }}
+            contentArrowStyle={{ borderRight: "7px solid  rgba(1, 2, 1, 0.37)" }}
             date={<Data text="Second Runner's Up Team" />}
             iconStyle={{ background: "rgb(255, 255, 255)", color: "#fff" }}
             icon={<Icon3 />}
@@ -106,8 +106,8 @@ const About = () => {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-            contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
+            contentStyle={{ background: "rgba(1, 2, 1, 0.37)", color: "#fff" }}
+            contentArrowStyle={{ borderRight: "7px solid  rgba(1, 2, 1, 0.37)" }}
             date={<Data text="Yes! There's more" />}
             iconStyle={{ background: "rgb(255, 255, 255)", color: "#fff" }}
             icon={<Icon4 />}
