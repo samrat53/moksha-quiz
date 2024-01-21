@@ -18,7 +18,7 @@ const images = [
 function App() {
   return (
     <>
-      <div className="custom-bg-color" data-theme="forest">
+      <div className="custom-bg-color" data-theme="light">
         <Router>
         <Layout>
           <Routes>
