@@ -39,7 +39,7 @@ const Navbar = () => {
               <button
                 className="btn text-white btn-warning my-1 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]"
                 onClick={() => {
-                  navigate("/home");
+                  navigate("/");
                 }}
               >
                 Home
@@ -82,7 +82,7 @@ const Navbar = () => {
               <button
                 className="btn btn-ghost text-white text-sm mr-5 btn-sm hover:text-black hover:bg-white"
                 onClick={() => {
-                  navigate("/home");
+                  navigate("/");
                 }}
               >
                 Home
